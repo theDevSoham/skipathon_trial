@@ -33,7 +33,7 @@ export default function RootLayout({
           {/* <RecoilContextProvider> */}
 
           <NavBar />
-          <div className="container mx-auto">{children}</div>
+          {children}
           {/* </RecoilContextProvider> */}
           {/* </SessionWrapper> */}
         </ThemeProvider>
